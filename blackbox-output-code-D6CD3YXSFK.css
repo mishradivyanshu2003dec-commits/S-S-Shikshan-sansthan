@@ -1,0 +1,17 @@
+/* Global Styles */
+body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; color: #003366; background: #FFFFFF; }
+header { background: #003366; color: #FFFFFF; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+nav ul { list-style: none; display: flex; gap: 1rem; }
+nav a { color: #FFFFFF; text-decoration: none; }
+.hero { background: linear-gradient(to right, #FF9933, #003366); color: #FFFFFF; padding: 2rem; text-align: center; }
+.btn { padding: 0.5rem 1rem; text-decoration: none; color: #FFFFFF; border-radius: 5px; }
+.btn.saffron { background: #FF9933; }
+.btn.navy { background: #003366; }
+section { padding: 2rem; max-width: 1200px; margin: auto; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.staff-grid { display: flex; flex-wrap: wrap; gap: 1rem; }
+.staff-card { text-align: center; }
+footer { background: #003366; color: #FFFFFF; text-align: center; padding: 1rem; }
+.notice-board { position: fixed; top: 50%; right: 0; background: #FF9933; padding: 1rem; width: 200px; }
+.whatsapp-btn { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: #FFFFFF; padding: 1rem; border-radius: 50%; text-decoration: none; font-size: 1.5rem; }
+@media (max-width: 768px) { nav ul { flex-direction: column; } .hero { flex-direction: column; } }
